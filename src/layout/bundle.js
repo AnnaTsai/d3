@@ -9,7 +9,7 @@ d3.layout.bundle = function() {
     var paths = [],
         i = -1,
         n = links.length;
-    //while (++i < n) paths.push(d3_layout_bundlePath(links[i]));
+    while (++i < n) paths.push(d3_layout_bundlePath(links[i]));
     return paths;
   };
 };
